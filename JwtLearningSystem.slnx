@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="JwtLearningSystem.HS256.Api/JwtLearningSystem.HS256.Api.csproj" />
+  <Project Path="JwtLearningSystem.RS256.Api/JwtLearningSystem.RS256.Api.csproj" />
+  <Project Path="JwtLearningSystem.Shared/JwtLearningSystem.Shared.csproj" />
+</Solution>
