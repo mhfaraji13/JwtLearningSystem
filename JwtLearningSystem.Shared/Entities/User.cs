@@ -16,6 +16,7 @@ namespace JwtLearningSystem.Shared.Entities
         public required string FirstName { get; set; }
         [StringLength(25, MinimumLength = 2, ErrorMessage = "LastName must be between 2 and 25 characters.")]
         public required string LastName { get; set; }
+        public required string NormalizedEmail { get; set; }
         public List<Role> Roles { get; set; } = new();
 
     }
