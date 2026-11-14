@@ -18,6 +18,7 @@ namespace JwtLearningSystem.Shared.Entities
         public required string LastName { get; set; }
         public required string NormalizedEmail { get; set; }
         public List<Role> Roles { get; set; } = new();
+        public List<Order> Orders { get; set; } = new();
 
     }
 }
