@@ -5,7 +5,7 @@ namespace JwtLearningSystem.Shared.Entities
     public class User
     {
         public Guid Id { get; set; }
-        [StringLength(70, MinimumLength = 10, ErrorMessage = "Email must be between 10 and 70 characters.")]
+        [StringLength(70)]
         [EmailAddress]
         public required string Email { get; set; }
         public required string PasswordSalt { get; set; }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace JwtLearningSystem.Shared.Enums
+﻿namespace JwtLearningSystem.Shared.Enums
 {
     public enum OrderStatus
     {

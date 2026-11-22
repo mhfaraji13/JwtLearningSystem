@@ -1,10 +1,11 @@
 ﻿
 
+using JwtLearningSystem.Shared.Interfaces;
 using System.Security.Cryptography;
 
 namespace JwtLearningSystem.Shared.Services
 {
-    public class PasswordHasher
+    public class PasswordHasher : IPasswordHasher
     {
         private const int SaltSize = 16;
         private const int HashSize = 32;
